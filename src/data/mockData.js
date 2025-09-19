@@ -3,7 +3,7 @@ export const mockData = {
   students: [
     {
       id: 1,
-      name: "Emma Johnson",
+      name: "Shubhra Mishra",
       grade: "8th Grade",
       riskLevel: "HIGH RISK",
       attendance: 65,
@@ -12,14 +12,14 @@ export const mockData = {
       recentScore: 58,
       activeAlerts: 2,
       status: "Declining",
-      mentor: "Ms. Sarah Wilson",
+      mentor: "Ms. Lipika Patil",
       lastActive: "3 days ago",
       subjects: ["Math", "Science", "English"],
       profileImage: null
     },
     {
       id: 2,
-      name: "Marcus Chen", 
+      name: "Nikhil Lath", 
       grade: "8th Grade",
       riskLevel: "MEDIUM RISK",
       attendance: 82,
@@ -28,14 +28,14 @@ export const mockData = {
       recentScore: 74,
       activeAlerts: 1,
       status: "Stable",
-      mentor: "Ms. Sarah Wilson",
+      mentor: "Ms. Lipika Patil",
       lastActive: "Today",
       subjects: ["Math", "Science", "English"],
       profileImage: null
     },
     {
       id: 3,
-      name: "Sophia Rodriguez",
+      name: "Sophia Rana",
       grade: "9th Grade", 
       riskLevel: "LOW RISK",
       attendance: 94,
