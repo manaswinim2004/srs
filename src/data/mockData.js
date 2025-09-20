@@ -185,7 +185,7 @@ export const mockData = {
     childName: "Nikhil Lath",
     childGrade: "8th Grade",
     mentorName: "Ms. Lipika Patil",
-    mentorContact: "sarah.wilson@school.edu",
+    mentorContact: "lipika.patil@school.edu",
     mentorPhone: "(555) 123-4567",
     currentAttendance: 65,
     currentGPA: 2.1,
