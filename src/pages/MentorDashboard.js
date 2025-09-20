@@ -85,7 +85,7 @@ const MentorDashboard = () => {
 
   return (
     <div className="dashboard">
-      <Header title="Student Early Warning System" />
+      <Header title="Mentor Dashboard" />
       
       <div className="dashboard-content">
         <div className="stats-section">

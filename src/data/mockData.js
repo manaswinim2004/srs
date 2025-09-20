@@ -44,14 +44,14 @@ export const mockData = {
       recentScore: 89,
       activeAlerts: 0,
       status: "Improving",
-      mentor: "Mr. David Brown",
+      mentor: "Mr. Srujan Mishra",
       lastActive: "Today",
       subjects: ["Physics", "Chemistry", "Math"],
       profileImage: null
     },
     {
       id: 4,
-      name: "Jamal Williams",
+      name: "Mrinalendu Maji",
       grade: "9th Grade",
       riskLevel: "HIGH RISK", 
       attendance: 71,
@@ -60,14 +60,14 @@ export const mockData = {
       recentScore: 52,
       activeAlerts: 3,
       status: "Critical",
-      mentor: "Mr. David Brown",
+      mentor: "Mr. Srujan Mishra",
       lastActive: "2 days ago",
       subjects: ["Physics", "Chemistry", "Math"],
       profileImage: null
     },
     {
       id: 5,
-      name: "Isabella Martinez",
+      name: "Shubh Agnihotri",
       grade: "7th Grade",
       riskLevel: "LOW RISK",
       attendance: 96,
@@ -76,14 +76,14 @@ export const mockData = {
       recentScore: 92,
       activeAlerts: 0,
       status: "Excellent",
-      mentor: "Ms. Jennifer Lee",
+      mentor: "Ms. Swati Parihar",
       lastActive: "Today",
       subjects: ["Math", "Science", "History"],
       profileImage: null
     },
     {
       id: 6,
-      name: "Tyler Anderson",
+      name: "Ritik Mohanty",
       grade: "7th Grade",
       riskLevel: "MEDIUM RISK",
       attendance: 78,
@@ -92,7 +92,7 @@ export const mockData = {
       recentScore: 68,
       activeAlerts: 1,
       status: "Improving",
-      mentor: "Ms. Jennifer Lee", 
+      mentor: "Ms. Swati Parihar", 
       lastActive: "1 day ago",
       subjects: ["Math", "Science", "History"],
       profileImage: null
@@ -108,14 +108,14 @@ export const mockData = {
       recentScore: 45,
       activeAlerts: 4,
       status: "Critical",
-      mentor: "Ms. Sarah Wilson",
+      mentor: "Ms. Lipika Patil",
       lastActive: "5 days ago",
       subjects: ["Math", "Science", "English"],
       profileImage: null
     },
     {
       id: 8,
-      name: "Kevin Liu",
+      name: "Yashika Kedia",
       grade: "9th Grade", 
       riskLevel: "LOW RISK",
       attendance: 91,
@@ -124,7 +124,7 @@ export const mockData = {
       recentScore: 85,
       activeAlerts: 0,
       status: "Good",
-      mentor: "Mr. David Brown",
+      mentor: "Mr. Srujan Mishra",
       lastActive: "Today",
       subjects: ["Physics", "Chemistry", "Math"],
       profileImage: null
@@ -134,7 +134,7 @@ export const mockData = {
   alerts: [
     {
       id: 1,
-      studentName: "Emma Johnson", 
+      studentName: "Shubhra Mishra", 
       message: "missed 3 consecutive days",
       timestamp: "2 hours ago",
       type: "attendance",
@@ -143,7 +143,7 @@ export const mockData = {
     },
     {
       id: 2,
-      studentName: "Jamal Williams",
+      studentName: "Nikhil Lath",
       message: "failed Math test",
       timestamp: "1 day ago", 
       type: "academic",
@@ -152,7 +152,7 @@ export const mockData = {
     },
     {
       id: 3,
-      studentName: "Isabella Martinez",
+      studentName: "Sophia Rana",
       message: "attendance below 60%",
       timestamp: "3 days ago",
       type: "attendance", 
@@ -161,7 +161,7 @@ export const mockData = {
     },
     {
       id: 4,
-      studentName: "Tyler Anderson",
+      studentName: "Mrinalendu Maji",
       message: "GPA dropped below 2.0",
       timestamp: "1 week ago",
       type: "academic",
@@ -182,9 +182,9 @@ export const mockData = {
   },
 
   parentChild: {
-    childName: "Emma Johnson",
+    childName: "Nikhil Lath",
     childGrade: "8th Grade",
-    mentorName: "Ms. Sarah Wilson",
+    mentorName: "Ms. Lipika Patil",
     mentorContact: "sarah.wilson@school.edu",
     mentorPhone: "(555) 123-4567",
     currentAttendance: 65,
@@ -220,22 +220,22 @@ export const mockData = {
   mentors: [
     {
       id: 1,
-      name: "Ms. Sarah Wilson",
-      email: "sarah.wilson@school.edu",
+      name: "Ms. Lipika Patil",
+      email: "lipika.patil@school.edu",
       subjects: ["Math", "Science", "English"],
       students: [1, 2, 7]
     },
     {
       id: 2,
-      name: "Mr. David Brown",
-      email: "david.brown@school.edu", 
+      name: "Mr. Srujan Mishra",
+      email: "srujan.mishra@school.edu", 
       subjects: ["Physics", "Chemistry", "Math"],
       students: [3, 4, 8]
     },
     {
       id: 3,
-      name: "Ms. Jennifer Lee",
-      email: "jennifer.lee@school.edu",
+      name: "Ms. Swati Parihar",
+      email: "swati.parihar@school.edu",
       subjects: ["Math", "Science", "History"], 
       students: [5, 6]
     }

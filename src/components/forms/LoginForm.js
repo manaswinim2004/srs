@@ -51,7 +51,7 @@ const LoginForm = () => {
           <div className="logo">
             <i className="fas fa-graduation-cap"></i>
           </div>
-          <h1>Student Early Warning System</h1>
+          <h1>SYMMARS</h1>
           <p>Sign in to access your dashboard</p>
         </div>
 
@@ -137,14 +137,14 @@ const LoginForm = () => {
           </button>
         </form>
 
-        <div className="demo-credentials">
+        {/* <div className="demo-credentials">
           <h4>Demo Credentials</h4>
           <p>For testing, use any username/password with your selected role</p>
           <div className="demo-examples">
             <div><strong>Username:</strong> demo</div>
             <div><strong>Password:</strong> demo</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
